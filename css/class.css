@@ -1,0 +1,125 @@
+html, body {
+  width: 351px;
+  height: 371px;
+  margin: 15px;
+  user-select: none;
+}
+.container {
+  width: 351px;
+  height: 371px;
+  background-color: #E4E4E4;
+}
+.numcontainer {
+  height: 83px;
+  width: 100%;
+}
+.inputcontainer {
+  height: 33px;
+  width: 100%;
+  background-color: #E4E4E4;
+}
+#calcf {
+  height: 33px;
+  width: 343px;
+  margin-right: 8px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+#resf {
+  height: 49px;
+  width: 344px;
+  margin-right: 7px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+#calcin {
+  height: 33px;
+  width: 343px;
+  padding: 0;
+  border: 0;
+  margin: 0px;
+  margin-right: 8px;
+  outline: 0;
+  background-color: #E4E4E4;
+  color: black;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 22px;
+}
+#resin {
+  height: 49px;
+  width: 344px;
+  padding: 0;
+  border: 0;
+  margin: 0px;
+  margin-right: 7px;
+  outline: 0;
+  background-color: #E4E4E4;
+  color: black;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 36px;
+}
+.resultcontainer {
+  height: 33px;
+  width: 100%;
+  background-color: #E4E4E4;
+  font: 18px;
+}
+.blockcontainer {
+  height: 286px;
+  width: 348px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px;
+  grid-column-gap: 0px;
+  grid-gap: 0px;
+  font-family: Roboto;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+.block, #number {
+  width: 84px;
+  height: 54px;
+  color: black;
+  background-color: #F3F3F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  cursor: pointer;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+#number {
+  color: black;
+  background-color: white;
+}
+.block:hover, .block:focus, .block:active, #number:hover, #number:focus, #number:active {
+  background-color: #b7e6e4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

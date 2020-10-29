@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/class.css">
+  <title>Calculator</title>
+</head>
+<body>
+	<div class="container">
+		<div class="numcontainer">
+		  <div class="inputcontainer">
+		    <form name="inputform" id="calcf">
+		      <input type="text" name="calcinput" id="calcin" readonly>
+		    </form>
+		  </div>
+		  <div class="resultcontainer">
+		    <form name="resultform" id="resf">
+		      <input type="text" name="resultinput" class="validate" id="resin" readonly> 
+	  	  </form>
+		  </div>
+		</div>
+	  <div class="blockcontainer">
+	    <div class="block" onclick="CE()">CE</div>
+	    <div class="block" onclick="C()">C</div>
+		<div class="block" onclick="D()">D</div>
+	    <div class="block" onclick="operinsert('/')" id="button">/</div>
+	    <div class="block" id="number" onclick="numinsert('7')">7</div>
+	    <div class="block" id="number" onclick="numinsert('8')">8</div>
+	    <div class="block" id="number" onclick="numinsert('9')">9</div>
+	    <div class="block" onclick="operinsert('*')" id="button">*</div>
+	    <div class="block" id="number" onclick="numinsert('4')">4</div>
+	    <div class="block" id="number" onclick="numinsert('5')">5</div>
+	    <div class="block" id="number" onclick="numinsert('6')">6</div>
+	    <div class="block" onclick="operinsert('-')" id="button">-</div>
+	    <div class="block" id="number" onclick="numinsert('1')">1</div>
+	    <div class="block" id="number" onclick="numinsert('2')">2</div>
+	    <div class="block" id="number" onclick="numinsert('3')">3</div>
+	    <div class="block" onclick="operinsert('+')" id="button">+</div>
+	    <div class="block" onclick="plusminus()">±</div>
+	    <div class="block" id="number" onclick="numinsert('0')">0</div>
+	    <div class="block" onclick="dotinsert('.')">.</div>
+	    <div class="block" onclick="calc()" id="button">=</div>
+	  </div>
+	</div>
+  <script src="js/script.js"></script>
+</body>
+</html>
